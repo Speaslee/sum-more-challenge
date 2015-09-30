@@ -26,3 +26,4 @@ all_nums.each do |total|
 end
 end
 puts nums
+puts counter
