@@ -27,3 +27,8 @@ end
 end
 puts nums
 puts counter
+
+
+sum = numbers.map {|n| n.split(",")}.flatten.map {|s| s.to_f}.reduce :+
+puts sum
+
